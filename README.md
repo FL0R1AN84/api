@@ -12,7 +12,7 @@ If there has been a new release, first click the "NPM Install button", then "Run
 
 ## Directus Shared Hosting with Plesk
 
-On many shared hosts you are not allowed to directly invoke node commands but you have to use the Plesk configuration panel instead. Unfortunately, Plesk does not allow the interactive execution of node scripts. Therefore we can't use Directus' `init`script and have to set up the project by our own.
+On many shared hosts you are not allowed to directly invoke node commands but you have to use the Plesk configuration panel instead. Unfortunately, Plesk does not allow the interactive execution of node scripts. Therefore we can't use Directus' `init` script and have to set up the project by our own.
 
 ## Setup a project folder
 
