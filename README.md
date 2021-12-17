@@ -8,6 +8,13 @@ Use `https://github.com/GammaGate/api.git` for the "Remote Git repository" field
 
 If there has been a new release, first click the "NPM Install button", then "Run script" with `Bootstrap`. It may be that a restart is necessary.
 
+Or specify shell commands that should run every time upon deployment:
+
+```
+npm install
+directus bootstrap
+```
+
 # Installation
 
 ## Directus Shared Hosting with Plesk
