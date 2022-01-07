@@ -11,8 +11,7 @@ If there has been a new release, first click the "NPM Install button", then "Run
 Or specify shell commands that should run every time upon deployment:
 
 ```
-npm install
-directus bootstrap
+npx directus bootstrap
 ```
 
 # Installation
