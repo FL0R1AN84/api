@@ -6,7 +6,7 @@ Use `https://github.com/GammaGate/api.git` for the "Remote Git repository" field
 
 ## Node.js
 
-If there has been a new release, first click the "NPM Install button", then "Run script" with `Bootstrap`. It may be that a restart is necessary.
+If there has been a new release, first click the "NPM Install button", then "Run script" with `bootstrap`. It may be that a restart is necessary.
 
 For automatic deployment use this specify shell commands that should run every time upon deployment:
 
