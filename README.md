@@ -13,6 +13,7 @@ For automatic deployment use this specify shell commands that should run every t
 ```
 npm install
 npx directus bootstrap
+touch tmp/restart.txt
 ```
 
 # Installation
