@@ -2,7 +2,7 @@
 
 ## Add Git Repository
 
-Use `https://github.com/GammaGate/api.git` for the "Remote Git repository" field.
+Use `https://github.com/FL0R1AN84/api.git` for the "Remote Git repository" field.
 
 ## Node.js
 
