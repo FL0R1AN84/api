@@ -74,7 +74,7 @@ In Plesk, choose your website and click "Node.js". You should then see a button 
 Now, change the "Document root" and "Application root" to the location of your project folder. "Application startup
 file" must point to the `index.js` file from the former step. The screen should now look like this:
 
-![Plesk Screenshot](https://docs.directus.io/assets/img/plesk-screenshot.2e2f90c2.png)
+![Plesk Screenshot](https://cdn.directus.io/docs/v9/self-hosted/installation/plesk/plesk-screenshot-20220810A.webp)
 
 You can now install the dependencies by clicking on the button "NPM install".
 
@@ -88,4 +88,4 @@ The Directus app should now work under your configured url. If not, try changing
 
 ---
 
-[This installation guide is from: **_docs.directus.io_**](https://docs.directus.io/getting-started/installation/plesk/)
+[This installation guide is from: **_docs.directus.io_**](https://docs.directus.io/self-hosted/installation/plesk.html)
