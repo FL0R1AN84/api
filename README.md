@@ -34,7 +34,7 @@ This file is used to configure Directus. Normally, the `init` script would creat
 
 Add Directus and your database connector as a dependency. To execute Directus' `bootstrap` command you also have to add a script entry for it.
 
-```
+```javascript
 {
 	"scripts": {
 		"bootstrap": "directus bootstrap"
@@ -51,7 +51,7 @@ Add Directus and your database connector as a dependency. To execute Directus' `
 
 Instead of a start command, Plesk wants a startup file. So create a `index.js` with the following content:
 
-```
+```javascript
 var { startServer } = require('directus/server');
 
 startServer();
