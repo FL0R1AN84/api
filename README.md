@@ -34,7 +34,7 @@ This file is used to configure Directus. Normally, the `init` script would creat
 
 Add Directus and your database connector as a dependency. To execute Directus' `bootstrap` command you also have to add a script entry for it.
 
-```
+```javascript
 {
 	"scripts": {
 		"bootstrap": "directus bootstrap"
@@ -51,7 +51,7 @@ Add Directus and your database connector as a dependency. To execute Directus' `
 
 Instead of a start command, Plesk wants a startup file. So create a `index.js` with the following content:
 
-```
+```javascript
 var { startServer } = require('directus/server');
 
 startServer();
@@ -72,9 +72,7 @@ scripts-prepend-node-path=true
 In Plesk, choose your website and click "Node.js". You should then see a button "Enable Node.js" and click on it.
 
 Now, change the "Document root" and "Application root" to the location of your project folder. "Application startup
-file" must point to the `index.js` file from the former step. The screen should now look like this:
-
-![Plesk Screenshot](https://cdn.directus.io/docs/v9/self-hosted/installation/plesk/plesk-screenshot-20220810A.webp)
+file" must point to the `index.js` file from the former step.
 
 You can now install the dependencies by clicking on the button "NPM install".
 
