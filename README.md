@@ -72,9 +72,7 @@ scripts-prepend-node-path=true
 In Plesk, choose your website and click "Node.js". You should then see a button "Enable Node.js" and click on it.
 
 Now, change the "Document root" and "Application root" to the location of your project folder. "Application startup
-file" must point to the `index.js` file from the former step. The screen should now look like this:
-
-![Plesk Screenshot](https://cdn.directus.io/docs/v9/self-hosted/installation/plesk/plesk-screenshot-20220810A.webp)
+file" must point to the `index.js` file from the former step.
 
 You can now install the dependencies by clicking on the button "NPM install".
 
